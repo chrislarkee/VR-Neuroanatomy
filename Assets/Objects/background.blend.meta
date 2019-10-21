@@ -1,0 +1,204 @@
+fileFormatVersion: 2
+guid: f645c67d89f957f40999e27a1a0a9249
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: CubeArray
+    100004: CubeArray_MeshPart0
+    100006: CubeArray_MeshPart1
+    100008: CubeArray_MeshPart2
+    100010: Empty
+    100012: Empty_001
+    100014: Empty_002
+    100016: Circle
+    100018: Circle_MeshPart0
+    100020: Circle_MeshPart1
+    100022: Circle_MeshPart2
+    100024: Circle_MeshPart3
+    100026: Circle_001
+    100028: Circle_001_MeshPart0
+    100030: Circle_001_MeshPart1
+    100032: Sponge_MeshPart0
+    100034: Sponge_MeshPart1
+    100036: Sponge_MeshPart2
+    100038: Sponge_MeshPart3
+    100040: Sponge_MeshPart4
+    100042: Sponge_MeshPart5
+    100044: Sponge_MeshPart6
+    100046: Sponge_MeshPart7
+    100048: Camera
+    100050: GD_mesh
+    400000: //RootNode
+    400002: CubeArray
+    400004: CubeArray_MeshPart0
+    400006: CubeArray_MeshPart1
+    400008: CubeArray_MeshPart2
+    400010: Empty
+    400012: Empty_001
+    400014: Empty_002
+    400016: Circle
+    400018: Circle_MeshPart0
+    400020: Circle_MeshPart1
+    400022: Circle_MeshPart2
+    400024: Circle_MeshPart3
+    400026: Circle_001
+    400028: Circle_001_MeshPart0
+    400030: Circle_001_MeshPart1
+    400032: Sponge_MeshPart0
+    400034: Sponge_MeshPart1
+    400036: Sponge_MeshPart2
+    400038: Sponge_MeshPart3
+    400040: Sponge_MeshPart4
+    400042: Sponge_MeshPart5
+    400044: Sponge_MeshPart6
+    400046: Sponge_MeshPart7
+    400048: Camera
+    400050: GD_mesh
+    2300000: CubeArray_MeshPart0
+    2300002: CubeArray_MeshPart1
+    2300004: CubeArray_MeshPart2
+    2300006: Circle_MeshPart0
+    2300008: Circle_MeshPart1
+    2300010: Circle_MeshPart2
+    2300012: Circle_MeshPart3
+    2300014: Circle
+    2300016: Circle_001_MeshPart0
+    2300018: Circle_001_MeshPart1
+    2300020: Sponge_MeshPart0
+    2300022: Sponge_MeshPart1
+    2300024: Sponge_MeshPart2
+    2300026: Sponge_MeshPart3
+    2300028: Sponge_MeshPart4
+    2300030: Sponge_MeshPart5
+    2300032: Sponge_MeshPart6
+    2300034: Sponge_MeshPart7
+    2300036: //RootNode
+    2300038: GD_mesh
+    3300000: CubeArray_MeshPart0
+    3300002: CubeArray_MeshPart1
+    3300004: CubeArray_MeshPart2
+    3300006: Circle_MeshPart0
+    3300008: Circle_MeshPart1
+    3300010: Circle_MeshPart2
+    3300012: Circle_MeshPart3
+    3300014: Circle
+    3300016: Circle_001_MeshPart0
+    3300018: Circle_001_MeshPart1
+    3300020: Sponge_MeshPart0
+    3300022: Sponge_MeshPart1
+    3300024: Sponge_MeshPart2
+    3300026: Sponge_MeshPart3
+    3300028: Sponge_MeshPart4
+    3300030: Sponge_MeshPart5
+    3300032: Sponge_MeshPart6
+    3300034: Sponge_MeshPart7
+    3300036: //RootNode
+    3300038: GD_mesh
+    4300000: CubeArray_MeshPart0
+    4300002: CubeArray_MeshPart1
+    4300004: CubeArray_MeshPart2
+    4300006: Circle_MeshPart0
+    4300008: Circle_MeshPart1
+    4300010: Circle_MeshPart2
+    4300012: Circle_MeshPart3
+    4300014: Circle
+    4300016: Circle_001_MeshPart0
+    4300018: Circle_001_MeshPart1
+    4300020: Sponge_MeshPart0
+    4300022: Sponge_MeshPart1
+    4300024: Sponge_MeshPart2
+    4300026: Sponge_MeshPart3
+    4300028: Sponge_MeshPart4
+    4300030: Sponge_MeshPart5
+    4300032: Sponge_MeshPart6
+    4300034: Sponge_MeshPart7
+    4300036: GD_mesh
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 1
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

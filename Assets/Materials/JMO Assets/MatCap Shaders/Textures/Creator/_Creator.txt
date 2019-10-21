@@ -1,0 +1,2 @@
+MatCaps in this folder were created in the "MC_MatCap_Creator" scene.
+They were all created using Unity's Standard shader.

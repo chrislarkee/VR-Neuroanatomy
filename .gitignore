@@ -2,6 +2,11 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
+
+#Asset store packages
+/Assets/Demigiant/
+/Assets/Oculus/
+
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/

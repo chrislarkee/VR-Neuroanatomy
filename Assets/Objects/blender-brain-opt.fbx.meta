@@ -1,0 +1,1276 @@
+fileFormatVersion: 2
+guid: de0257d9ca457424cbb8f40a83a3160c
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: 'Amygdala '
+    100002: Amygdala.C
+    100004: Amygdala.L
+    100006: Amygdala.R
+    100008: 'Anterior Commissure '
+    100010: Anterior Commissure.C
+    100012: Anterior Commissure.L
+    100014: Anterior Commissure.R
+    100016: Anterior Commisure
+    100018: Anterior Commisure.C
+    100020: Anterior Commisure.M
+    100022: 'Basal Nucleus '
+    100024: Basal Nucleus.C
+    100026: Basal Nucleus.L
+    100028: Basal Nucleus.R
+    100030: //RootNode
+    100032: Caudate Group
+    100034: Caudate.C
+    100036: Caudate.L
+    100038: Caudate.R
+    100040: 'Choroid plexus of fourth ventricle '
+    100042: Choroid plexus of fourth ventricle.C
+    100044: Choroid plexus of fourth ventricle.M
+    100046: 'Choroid plexus of left lateral ventricle '
+    100048: Choroid plexus of left lateral ventricle.C
+    100050: Choroid plexus of left lateral ventricle.M
+    100052: 'Choroid plexus of right lateral ventricle '
+    100054: Choroid plexus of right lateral ventricle.C
+    100056: Choroid plexus of right lateral ventricle.M
+    100058: Cingulate Gyrus
+    100060: Cingulate Gyrus.C
+    100062: Cingulate Gyrus.L
+    100064: Cingulate Gyrus.R
+    100066: 'Claustrum '
+    100068: Claustrum.C
+    100070: Claustrum.L
+    100072: Claustrum.R
+    100074: Correspondences
+    100076: Cortex Group
+    100078: Fimbria of hippocampus
+    100080: Fimbria of hippocampus.C
+    100082: Fimbria of hippocampus.L
+    100084: Fimbria of hippocampus.R
+    100086: Fornix Body
+    100088: Fornix Body.C
+    100090: Fornix Body.L
+    100092: Fornix Body.R
+    100094: Fornix Group
+    100096: Frontal Lobe
+    100098: Frontal Lobe.C
+    100100: Frontal Lobe.L
+    100102: Frontal Lobe.R
+    100104: 'Globus Pallidus '
+    100106: Globus Pallidus..R
+    100108: Globus Pallidus.C
+    100110: Globus Pallidus.L
+    100112: Hippocampal Formation
+    100114: Hippocampal Formation.C
+    100116: Hippocampal Formation.L
+    100118: Hippocampal Formation.R
+    100120: Hypothalamus.001
+    100122: Hypothalamus.C
+    100124: Hypothalamus.M
+    100126: Insula
+    100128: Insula.C
+    100130: Insula.L
+    100132: Insula.R
+    100134: Labels.001
+    100136: Labels.002
+    100138: Labels.003
+    100140: Labels.008
+    100142: Labels.009
+    100144: Labels.011
+    100146: Labels.017
+    100148: Labels.022
+    100150: Labels.023
+    100152: Labels.026
+    100154: Labels.029
+    100156: Labels.030
+    100158: Labels.032
+    100160: Labels.034
+    100162: Labels.035
+    100164: Labels.040
+    100166: Labels.042
+    100168: Labels.044
+    100170: Labels.045
+    100172: Labels.046
+    100174: Labels.048
+    100176: Labels.050
+    100178: Labels.052
+    100180: Labels.053
+    100182: Labels.054
+    100184: Labels.055
+    100186: Labels.056
+    100188: Labels.057
+    100190: Labels.062
+    100192: Labels.064
+    100194: Labels.065
+    100196: Labels.066
+    100198: Labels.067
+    100200: 'Lamina terminalis '
+    100202: Lamina terminalis .001
+    100204: Left Brain Stem
+    100206: Left Brain Stem.C
+    100208: Left Brain Stem.M
+    100210: Left Cerebellum
+    100212: Left Cerebellum.C
+    100214: Left Cerebellum.M
+    100216: Line
+    100218: Line_1
+    100220: Line_10
+    100222: Line_11
+    100224: Line_12
+    100226: Line_13
+    100228: Line_14
+    100230: Line_15
+    100232: Line_16
+    100234: Line_17
+    100236: Line_18
+    100238: Line_19
+    100240: Line_2
+    100242: Line_20
+    100244: Line_21
+    100246: Line_22
+    100248: Line_23
+    100250: Line_24
+    100252: Line_25
+    100254: Line_26
+    100256: Line_27
+    100258: Line_28
+    100260: Line_29
+    100262: Line_3
+    100264: Line_30
+    100266: Line_31
+    100268: Line_32
+    100270: Line_4
+    100272: Line_5
+    100274: Line_6
+    100276: Line_7
+    100278: Line_8
+    100280: Line_9
+    100282: 'Locus Ceruleus '
+    100284: Locus Ceruleus.C
+    100286: Locus Ceruleus.L
+    100288: Locus Ceruleus.R
+    100290: MFB
+    100292: MFB.M
+    100294: 'Nucleus Accumbens '
+    100296: Nucleus Accumbens.C
+    100298: Nucleus Accumbens.L
+    100300: Nucleus Accumbens.R
+    100302: Occipital Lobe
+    100304: Occipital Lobe.C
+    100306: Occipital Lobe.L
+    100308: Occipital Lobe.R
+    100310: 'Olfactory Tract '
+    100312: Olfactory Tract.C
+    100314: Olfactory Tract.L
+    100316: Olfactory Tract.R
+    100318: Optic Chiasm .001
+    100320: Optic Chiasm.C
+    100322: Optic Chiasm.M
+    100324: 'Optic Nerve '
+    100326: Optic Nerve.C
+    100328: Optic Nerve.L
+    100330: Optic Nerve.R
+    100332: 'Optic Tract '
+    100334: Optic Tract.C
+    100336: Optic Tract.L
+    100338: Optic Tract.R
+    100340: Parahippocampus
+    100342: Parahippocampus.C
+    100344: Parahippocampus.L
+    100346: Parahippocampus.R
+    100348: Parietal Lobe
+    100350: Parietal Lobe.C
+    100352: Parietal Lobe.L
+    100354: Parietal Lobe.R
+    100356: Post-commissural fornix branch
+    100358: Post-commissural fornix branch.C
+    100360: Post-commissural fornix branch.L
+    100362: Post-commissural fornix branch.R
+    100364: 'Posterior commissure '
+    100366: Posterior commissure.M
+    100368: Pre-commissural fornix branch
+    100370: Pre-commissural fornix branch.C
+    100372: Pre-commissural fornix branch.L
+    100374: Pre-commissural fornix branch.R
+    100376: 'Putamen '
+    100378: Putamen.C
+    100380: Putamen.L
+    100382: Putamen.R
+    100384: Right Brain Stem
+    100386: Right Brain Stem.C
+    100388: Right Brain Stem.M
+    100390: Right Cerebellum
+    100392: Right Cerebellum.C
+    100394: Right Cerebellum.M
+    100396: RotationPoint
+    100398: 'Septal Nuclei '
+    100400: Septal Nuclei.C
+    100402: Septal Nuclei.L
+    100404: Septal Nuclei.R
+    100406: 'Septum Pellucidum '
+    100408: Septum Pellucidum.C
+    100410: Septum Pellucidum.L
+    100412: Septum Pellucidum.R
+    100414: ShapeIndexedFaceSet_102
+    100416: ShapeIndexedFaceSet_147
+    100418: ShapeIndexedFaceSet_184
+    100420: ShapeIndexedFaceSet_208
+    100422: ShapeIndexedFaceSet_230
+    100424: Temporal Lobe
+    100426: Temporal Lobe.C
+    100428: Temporal Lobe.L
+    100430: Temporal Lobe.R
+    100432: Thalamus
+    100434: Thalamus.C
+    100436: Thalamus.L
+    100438: Thalamus.R
+    100440: Ventricle Group
+    100442: Ventricle.C
+    100444: Ventricle.L
+    100446: Ventricle.M1
+    100448: Ventricle.M2
+    100450: Ventricle.R
+    100452: Globus Pallidus.R
+    100454: Hypothalamus
+    100456: Lamina terminalis
+    100458: Lamina terminalis.M
+    100460: 'Optic Chiasm '
+    100462: Amygdala
+    100464: Anterior Commissure
+    100466: Basal Nucleus
+    100468: Caudate
+    100470: Choroid plexus of fourth ventricle
+    100472: Choroid plexus of left lateral ventricle
+    100474: Choroid plexus of right lateral ventricle
+    100476: Claustrum
+    100478: Globus Pallidus
+    100480: Locus Ceruleus
+    100482: Nucleus Accumbens
+    100484: Olfactory Tract
+    100486: Optic Chiasm
+    100488: Optic Nerve
+    100490: Optic Tract
+    100492: Posterior commissure
+    100494: Putamen
+    100496: Septal Nuclei
+    100498: Septum Pellucidum
+    100500: Ventricle
+    100502: Brain Stem.CL
+    100504: Brain Stem.CR
+    100506: Cerebellum.CL
+    100508: Cerebellum.CR
+    100510: Frontal Lobe.CL
+    100512: Frontal Lobe.CR
+    100514: Occipital Lobe.CL
+    100516: Occipital Lobe.CR
+    100518: Parietal Lobe.CL
+    100520: Parietal Lobe.CR
+    100522: Temporal Lobe.CL
+    100524: Temporal Lobe.CR
+    100526: Anterior Commissure.M
+    400000: 'Amygdala '
+    400002: Amygdala.C
+    400004: Amygdala.L
+    400006: Amygdala.R
+    400008: 'Anterior Commissure '
+    400010: Anterior Commissure.C
+    400012: Anterior Commissure.L
+    400014: Anterior Commissure.R
+    400016: Anterior Commisure
+    400018: Anterior Commisure.C
+    400020: Anterior Commisure.M
+    400022: 'Basal Nucleus '
+    400024: Basal Nucleus.C
+    400026: Basal Nucleus.L
+    400028: Basal Nucleus.R
+    400030: //RootNode
+    400032: Caudate Group
+    400034: Caudate.C
+    400036: Caudate.L
+    400038: Caudate.R
+    400040: 'Choroid plexus of fourth ventricle '
+    400042: Choroid plexus of fourth ventricle.C
+    400044: Choroid plexus of fourth ventricle.M
+    400046: 'Choroid plexus of left lateral ventricle '
+    400048: Choroid plexus of left lateral ventricle.C
+    400050: Choroid plexus of left lateral ventricle.M
+    400052: 'Choroid plexus of right lateral ventricle '
+    400054: Choroid plexus of right lateral ventricle.C
+    400056: Choroid plexus of right lateral ventricle.M
+    400058: Cingulate Gyrus
+    400060: Cingulate Gyrus.C
+    400062: Cingulate Gyrus.L
+    400064: Cingulate Gyrus.R
+    400066: 'Claustrum '
+    400068: Claustrum.C
+    400070: Claustrum.L
+    400072: Claustrum.R
+    400074: Correspondences
+    400076: Cortex Group
+    400078: Fimbria of hippocampus
+    400080: Fimbria of hippocampus.C
+    400082: Fimbria of hippocampus.L
+    400084: Fimbria of hippocampus.R
+    400086: Fornix Body
+    400088: Fornix Body.C
+    400090: Fornix Body.L
+    400092: Fornix Body.R
+    400094: Fornix Group
+    400096: Frontal Lobe
+    400098: Frontal Lobe.C
+    400100: Frontal Lobe.L
+    400102: Frontal Lobe.R
+    400104: 'Globus Pallidus '
+    400106: Globus Pallidus..R
+    400108: Globus Pallidus.C
+    400110: Globus Pallidus.L
+    400112: Hippocampal Formation
+    400114: Hippocampal Formation.C
+    400116: Hippocampal Formation.L
+    400118: Hippocampal Formation.R
+    400120: Hypothalamus.001
+    400122: Hypothalamus.C
+    400124: Hypothalamus.M
+    400126: Insula
+    400128: Insula.C
+    400130: Insula.L
+    400132: Insula.R
+    400134: Labels.001
+    400136: Labels.002
+    400138: Labels.003
+    400140: Labels.008
+    400142: Labels.009
+    400144: Labels.011
+    400146: Labels.017
+    400148: Labels.022
+    400150: Labels.023
+    400152: Labels.026
+    400154: Labels.029
+    400156: Labels.030
+    400158: Labels.032
+    400160: Labels.034
+    400162: Labels.035
+    400164: Labels.040
+    400166: Labels.042
+    400168: Labels.044
+    400170: Labels.045
+    400172: Labels.046
+    400174: Labels.048
+    400176: Labels.050
+    400178: Labels.052
+    400180: Labels.053
+    400182: Labels.054
+    400184: Labels.055
+    400186: Labels.056
+    400188: Labels.057
+    400190: Labels.062
+    400192: Labels.064
+    400194: Labels.065
+    400196: Labels.066
+    400198: Labels.067
+    400200: 'Lamina terminalis '
+    400202: Lamina terminalis .001
+    400204: Left Brain Stem
+    400206: Left Brain Stem.C
+    400208: Left Brain Stem.M
+    400210: Left Cerebellum
+    400212: Left Cerebellum.C
+    400214: Left Cerebellum.M
+    400216: Line
+    400218: Line_1
+    400220: Line_10
+    400222: Line_11
+    400224: Line_12
+    400226: Line_13
+    400228: Line_14
+    400230: Line_15
+    400232: Line_16
+    400234: Line_17
+    400236: Line_18
+    400238: Line_19
+    400240: Line_2
+    400242: Line_20
+    400244: Line_21
+    400246: Line_22
+    400248: Line_23
+    400250: Line_24
+    400252: Line_25
+    400254: Line_26
+    400256: Line_27
+    400258: Line_28
+    400260: Line_29
+    400262: Line_3
+    400264: Line_30
+    400266: Line_31
+    400268: Line_32
+    400270: Line_4
+    400272: Line_5
+    400274: Line_6
+    400276: Line_7
+    400278: Line_8
+    400280: Line_9
+    400282: 'Locus Ceruleus '
+    400284: Locus Ceruleus.C
+    400286: Locus Ceruleus.L
+    400288: Locus Ceruleus.R
+    400290: MFB
+    400292: MFB.M
+    400294: 'Nucleus Accumbens '
+    400296: Nucleus Accumbens.C
+    400298: Nucleus Accumbens.L
+    400300: Nucleus Accumbens.R
+    400302: Occipital Lobe
+    400304: Occipital Lobe.C
+    400306: Occipital Lobe.L
+    400308: Occipital Lobe.R
+    400310: 'Olfactory Tract '
+    400312: Olfactory Tract.C
+    400314: Olfactory Tract.L
+    400316: Olfactory Tract.R
+    400318: Optic Chiasm .001
+    400320: Optic Chiasm.C
+    400322: Optic Chiasm.M
+    400324: 'Optic Nerve '
+    400326: Optic Nerve.C
+    400328: Optic Nerve.L
+    400330: Optic Nerve.R
+    400332: 'Optic Tract '
+    400334: Optic Tract.C
+    400336: Optic Tract.L
+    400338: Optic Tract.R
+    400340: Parahippocampus
+    400342: Parahippocampus.C
+    400344: Parahippocampus.L
+    400346: Parahippocampus.R
+    400348: Parietal Lobe
+    400350: Parietal Lobe.C
+    400352: Parietal Lobe.L
+    400354: Parietal Lobe.R
+    400356: Post-commissural fornix branch
+    400358: Post-commissural fornix branch.C
+    400360: Post-commissural fornix branch.L
+    400362: Post-commissural fornix branch.R
+    400364: 'Posterior commissure '
+    400366: Posterior commissure.M
+    400368: Pre-commissural fornix branch
+    400370: Pre-commissural fornix branch.C
+    400372: Pre-commissural fornix branch.L
+    400374: Pre-commissural fornix branch.R
+    400376: 'Putamen '
+    400378: Putamen.C
+    400380: Putamen.L
+    400382: Putamen.R
+    400384: Right Brain Stem
+    400386: Right Brain Stem.C
+    400388: Right Brain Stem.M
+    400390: Right Cerebellum
+    400392: Right Cerebellum.C
+    400394: Right Cerebellum.M
+    400396: RotationPoint
+    400398: 'Septal Nuclei '
+    400400: Septal Nuclei.C
+    400402: Septal Nuclei.L
+    400404: Septal Nuclei.R
+    400406: 'Septum Pellucidum '
+    400408: Septum Pellucidum.C
+    400410: Septum Pellucidum.L
+    400412: Septum Pellucidum.R
+    400414: ShapeIndexedFaceSet_102
+    400416: ShapeIndexedFaceSet_147
+    400418: ShapeIndexedFaceSet_184
+    400420: ShapeIndexedFaceSet_208
+    400422: ShapeIndexedFaceSet_230
+    400424: Temporal Lobe
+    400426: Temporal Lobe.C
+    400428: Temporal Lobe.L
+    400430: Temporal Lobe.R
+    400432: Thalamus
+    400434: Thalamus.C
+    400436: Thalamus.L
+    400438: Thalamus.R
+    400440: Ventricle Group
+    400442: Ventricle.C
+    400444: Ventricle.L
+    400446: Ventricle.M1
+    400448: Ventricle.M2
+    400450: Ventricle.R
+    400452: Globus Pallidus.R
+    400454: Hypothalamus
+    400456: Lamina terminalis
+    400458: Lamina terminalis.M
+    400460: 'Optic Chiasm '
+    400462: Amygdala
+    400464: Anterior Commissure
+    400466: Basal Nucleus
+    400468: Caudate
+    400470: Choroid plexus of fourth ventricle
+    400472: Choroid plexus of left lateral ventricle
+    400474: Choroid plexus of right lateral ventricle
+    400476: Claustrum
+    400478: Globus Pallidus
+    400480: Locus Ceruleus
+    400482: Nucleus Accumbens
+    400484: Olfactory Tract
+    400486: Optic Chiasm
+    400488: Optic Nerve
+    400490: Optic Tract
+    400492: Posterior commissure
+    400494: Putamen
+    400496: Septal Nuclei
+    400498: Septum Pellucidum
+    400500: Ventricle
+    400502: Brain Stem.CL
+    400504: Brain Stem.CR
+    400506: Cerebellum.CL
+    400508: Cerebellum.CR
+    400510: Frontal Lobe.CL
+    400512: Frontal Lobe.CR
+    400514: Occipital Lobe.CL
+    400516: Occipital Lobe.CR
+    400518: Parietal Lobe.CL
+    400520: Parietal Lobe.CR
+    400522: Temporal Lobe.CL
+    400524: Temporal Lobe.CR
+    400526: Anterior Commissure.M
+    2100000: 03
+    2100002: BrainLabels
+    2100004: 02
+    2100006: 05
+    2100008: 04
+    2100010: 01
+    2100012: Default
+    2100014: 06
+    2300000: Amygdala.C
+    2300002: Amygdala.L
+    2300004: Amygdala.R
+    2300006: Anterior Commissure.C
+    2300008: Anterior Commissure.L
+    2300010: Anterior Commissure.R
+    2300012: Anterior Commisure.C
+    2300014: Anterior Commisure.M
+    2300016: Basal Nucleus.C
+    2300018: Basal Nucleus.L
+    2300020: Basal Nucleus.R
+    2300022: Caudate.C
+    2300024: Caudate.L
+    2300026: Caudate.R
+    2300028: Choroid plexus of fourth ventricle.C
+    2300030: Choroid plexus of fourth ventricle.M
+    2300032: Choroid plexus of left lateral ventricle.C
+    2300034: Choroid plexus of left lateral ventricle.M
+    2300036: Choroid plexus of right lateral ventricle.C
+    2300038: Choroid plexus of right lateral ventricle.M
+    2300040: Cingulate Gyrus.C
+    2300042: Cingulate Gyrus.L
+    2300044: Cingulate Gyrus.R
+    2300046: Claustrum.C
+    2300048: Claustrum.L
+    2300050: Claustrum.R
+    2300052: Fimbria of hippocampus.C
+    2300054: Fimbria of hippocampus.L
+    2300056: Fimbria of hippocampus.R
+    2300058: Fornix Body.C
+    2300060: Fornix Body.L
+    2300062: Fornix Body.R
+    2300064: Frontal Lobe.C
+    2300066: Frontal Lobe.L
+    2300068: Frontal Lobe.R
+    2300070: Globus Pallidus..R
+    2300072: Globus Pallidus.C
+    2300074: Globus Pallidus.L
+    2300076: Hippocampal Formation.C
+    2300078: Hippocampal Formation.L
+    2300080: Hippocampal Formation.R
+    2300082: Hypothalamus.C
+    2300084: Hypothalamus.M
+    2300086: Insula.C
+    2300088: Insula.L
+    2300090: Insula.R
+    2300092: Labels.001
+    2300094: Labels.002
+    2300096: Labels.003
+    2300098: Labels.008
+    2300100: Labels.009
+    2300102: Labels.011
+    2300104: Labels.017
+    2300106: Labels.022
+    2300108: Labels.023
+    2300110: Labels.026
+    2300112: Labels.029
+    2300114: Labels.030
+    2300116: Labels.032
+    2300118: Labels.034
+    2300120: Labels.035
+    2300122: Labels.040
+    2300124: Labels.042
+    2300126: Labels.044
+    2300128: Labels.045
+    2300130: Labels.046
+    2300132: Labels.048
+    2300134: Labels.050
+    2300136: Labels.052
+    2300138: Labels.053
+    2300140: Labels.054
+    2300142: Labels.055
+    2300144: Labels.056
+    2300146: Labels.057
+    2300148: Labels.062
+    2300150: Labels.064
+    2300152: Labels.065
+    2300154: Labels.066
+    2300156: Labels.067
+    2300158: 'Lamina terminalis '
+    2300160: Left Brain Stem.C
+    2300162: Left Brain Stem.M
+    2300164: Left Cerebellum.C
+    2300166: Left Cerebellum.M
+    2300168: Locus Ceruleus.C
+    2300170: Locus Ceruleus.L
+    2300172: Locus Ceruleus.R
+    2300174: MFB.M
+    2300176: Nucleus Accumbens.C
+    2300178: Nucleus Accumbens.L
+    2300180: Nucleus Accumbens.R
+    2300182: Occipital Lobe.C
+    2300184: Occipital Lobe.L
+    2300186: Occipital Lobe.R
+    2300188: Olfactory Tract.C
+    2300190: Olfactory Tract.L
+    2300192: Olfactory Tract.R
+    2300194: Optic Chiasm.C
+    2300196: Optic Chiasm.M
+    2300198: Optic Nerve.C
+    2300200: Optic Nerve.L
+    2300202: Optic Nerve.R
+    2300204: Optic Tract.C
+    2300206: Optic Tract.L
+    2300208: Optic Tract.R
+    2300210: Parahippocampus.C
+    2300212: Parahippocampus.L
+    2300214: Parahippocampus.R
+    2300216: Parietal Lobe.C
+    2300218: Parietal Lobe.L
+    2300220: Parietal Lobe.R
+    2300222: Post-commissural fornix branch.C
+    2300224: Post-commissural fornix branch.L
+    2300226: Post-commissural fornix branch.R
+    2300228: Posterior commissure.M
+    2300230: Pre-commissural fornix branch.C
+    2300232: Pre-commissural fornix branch.L
+    2300234: Pre-commissural fornix branch.R
+    2300236: Putamen.C
+    2300238: Putamen.L
+    2300240: Putamen.R
+    2300242: Right Brain Stem.C
+    2300244: Right Brain Stem.M
+    2300246: Right Cerebellum.C
+    2300248: Right Cerebellum.M
+    2300250: Septal Nuclei.C
+    2300252: Septal Nuclei.L
+    2300254: Septal Nuclei.R
+    2300256: Septum Pellucidum.C
+    2300258: Septum Pellucidum.L
+    2300260: Septum Pellucidum.R
+    2300262: ShapeIndexedFaceSet_102
+    2300264: ShapeIndexedFaceSet_147
+    2300266: ShapeIndexedFaceSet_184
+    2300268: ShapeIndexedFaceSet_208
+    2300270: ShapeIndexedFaceSet_230
+    2300272: Temporal Lobe.C
+    2300274: Temporal Lobe.L
+    2300276: Temporal Lobe.R
+    2300278: Thalamus.C
+    2300280: Thalamus.L
+    2300282: Thalamus.R
+    2300284: Ventricle.C
+    2300286: Ventricle.L
+    2300288: Ventricle.M1
+    2300290: Ventricle.M2
+    2300292: Ventricle.R
+    2300294: Globus Pallidus.R
+    2300296: Lamina terminalis.M
+    2300298: Amygdala
+    2300300: Anterior Commissure
+    2300302: Anterior Commisure
+    2300304: Basal Nucleus
+    2300306: Caudate
+    2300308: Choroid plexus of fourth ventricle
+    2300310: Choroid plexus of left lateral ventricle
+    2300312: Choroid plexus of right lateral ventricle
+    2300314: Cingulate Gyrus
+    2300316: Claustrum
+    2300318: Fimbria of hippocampus
+    2300320: Fornix Body
+    2300322: Frontal Lobe
+    2300324: Globus Pallidus
+    2300326: Hippocampal Formation
+    2300328: Hypothalamus
+    2300330: Insula
+    2300332: Lamina terminalis
+    2300334: Left Brain Stem
+    2300336: Left Cerebellum
+    2300338: Locus Ceruleus
+    2300340: MFB
+    2300342: Nucleus Accumbens
+    2300344: Occipital Lobe
+    2300346: Olfactory Tract
+    2300348: Optic Chiasm
+    2300350: Optic Nerve
+    2300352: Optic Tract
+    2300354: Parahippocampus
+    2300356: Parietal Lobe
+    2300358: Post-commissural fornix branch
+    2300360: Posterior commissure
+    2300362: Pre-commissural fornix branch
+    2300364: Putamen
+    2300366: Right Brain Stem
+    2300368: Right Cerebellum
+    2300370: Septal Nuclei
+    2300372: Septum Pellucidum
+    2300374: Temporal Lobe
+    2300376: Thalamus
+    2300378: Ventricle
+    2300380: Brain Stem.CL
+    2300382: Brain Stem.CR
+    2300384: Cerebellum.CL
+    2300386: Cerebellum.CR
+    2300388: Frontal Lobe.CL
+    2300390: Frontal Lobe.CR
+    2300392: Occipital Lobe.CL
+    2300394: Occipital Lobe.CR
+    2300396: Parietal Lobe.CL
+    2300398: Parietal Lobe.CR
+    2300400: Temporal Lobe.CL
+    2300402: Temporal Lobe.CR
+    2300404: Anterior Commissure.M
+    3300000: Amygdala.C
+    3300002: Amygdala.L
+    3300004: Amygdala.R
+    3300006: Anterior Commissure.C
+    3300008: Anterior Commissure.L
+    3300010: Anterior Commissure.R
+    3300012: Anterior Commisure.C
+    3300014: Anterior Commisure.M
+    3300016: Basal Nucleus.C
+    3300018: Basal Nucleus.L
+    3300020: Basal Nucleus.R
+    3300022: Caudate.C
+    3300024: Caudate.L
+    3300026: Caudate.R
+    3300028: Choroid plexus of fourth ventricle.C
+    3300030: Choroid plexus of fourth ventricle.M
+    3300032: Choroid plexus of left lateral ventricle.C
+    3300034: Choroid plexus of left lateral ventricle.M
+    3300036: Choroid plexus of right lateral ventricle.C
+    3300038: Choroid plexus of right lateral ventricle.M
+    3300040: Cingulate Gyrus.C
+    3300042: Cingulate Gyrus.L
+    3300044: Cingulate Gyrus.R
+    3300046: Claustrum.C
+    3300048: Claustrum.L
+    3300050: Claustrum.R
+    3300052: Fimbria of hippocampus.C
+    3300054: Fimbria of hippocampus.L
+    3300056: Fimbria of hippocampus.R
+    3300058: Fornix Body.C
+    3300060: Fornix Body.L
+    3300062: Fornix Body.R
+    3300064: Frontal Lobe.C
+    3300066: Frontal Lobe.L
+    3300068: Frontal Lobe.R
+    3300070: Globus Pallidus..R
+    3300072: Globus Pallidus.C
+    3300074: Globus Pallidus.L
+    3300076: Hippocampal Formation.C
+    3300078: Hippocampal Formation.L
+    3300080: Hippocampal Formation.R
+    3300082: Hypothalamus.C
+    3300084: Hypothalamus.M
+    3300086: Insula.C
+    3300088: Insula.L
+    3300090: Insula.R
+    3300092: Labels.001
+    3300094: Labels.002
+    3300096: Labels.003
+    3300098: Labels.008
+    3300100: Labels.009
+    3300102: Labels.011
+    3300104: Labels.017
+    3300106: Labels.022
+    3300108: Labels.023
+    3300110: Labels.026
+    3300112: Labels.029
+    3300114: Labels.030
+    3300116: Labels.032
+    3300118: Labels.034
+    3300120: Labels.035
+    3300122: Labels.040
+    3300124: Labels.042
+    3300126: Labels.044
+    3300128: Labels.045
+    3300130: Labels.046
+    3300132: Labels.048
+    3300134: Labels.050
+    3300136: Labels.052
+    3300138: Labels.053
+    3300140: Labels.054
+    3300142: Labels.055
+    3300144: Labels.056
+    3300146: Labels.057
+    3300148: Labels.062
+    3300150: Labels.064
+    3300152: Labels.065
+    3300154: Labels.066
+    3300156: Labels.067
+    3300158: 'Lamina terminalis '
+    3300160: Left Brain Stem.C
+    3300162: Left Brain Stem.M
+    3300164: Left Cerebellum.C
+    3300166: Left Cerebellum.M
+    3300168: Locus Ceruleus.C
+    3300170: Locus Ceruleus.L
+    3300172: Locus Ceruleus.R
+    3300174: MFB.M
+    3300176: Nucleus Accumbens.C
+    3300178: Nucleus Accumbens.L
+    3300180: Nucleus Accumbens.R
+    3300182: Occipital Lobe.C
+    3300184: Occipital Lobe.L
+    3300186: Occipital Lobe.R
+    3300188: Olfactory Tract.C
+    3300190: Olfactory Tract.L
+    3300192: Olfactory Tract.R
+    3300194: Optic Chiasm.C
+    3300196: Optic Chiasm.M
+    3300198: Optic Nerve.C
+    3300200: Optic Nerve.L
+    3300202: Optic Nerve.R
+    3300204: Optic Tract.C
+    3300206: Optic Tract.L
+    3300208: Optic Tract.R
+    3300210: Parahippocampus.C
+    3300212: Parahippocampus.L
+    3300214: Parahippocampus.R
+    3300216: Parietal Lobe.C
+    3300218: Parietal Lobe.L
+    3300220: Parietal Lobe.R
+    3300222: Post-commissural fornix branch.C
+    3300224: Post-commissural fornix branch.L
+    3300226: Post-commissural fornix branch.R
+    3300228: Posterior commissure.M
+    3300230: Pre-commissural fornix branch.C
+    3300232: Pre-commissural fornix branch.L
+    3300234: Pre-commissural fornix branch.R
+    3300236: Putamen.C
+    3300238: Putamen.L
+    3300240: Putamen.R
+    3300242: Right Brain Stem.C
+    3300244: Right Brain Stem.M
+    3300246: Right Cerebellum.C
+    3300248: Right Cerebellum.M
+    3300250: Septal Nuclei.C
+    3300252: Septal Nuclei.L
+    3300254: Septal Nuclei.R
+    3300256: Septum Pellucidum.C
+    3300258: Septum Pellucidum.L
+    3300260: Septum Pellucidum.R
+    3300262: ShapeIndexedFaceSet_102
+    3300264: ShapeIndexedFaceSet_147
+    3300266: ShapeIndexedFaceSet_184
+    3300268: ShapeIndexedFaceSet_208
+    3300270: ShapeIndexedFaceSet_230
+    3300272: Temporal Lobe.C
+    3300274: Temporal Lobe.L
+    3300276: Temporal Lobe.R
+    3300278: Thalamus.C
+    3300280: Thalamus.L
+    3300282: Thalamus.R
+    3300284: Ventricle.C
+    3300286: Ventricle.L
+    3300288: Ventricle.M1
+    3300290: Ventricle.M2
+    3300292: Ventricle.R
+    3300294: Globus Pallidus.R
+    3300296: Lamina terminalis.M
+    3300298: Amygdala
+    3300300: Anterior Commissure
+    3300302: Anterior Commisure
+    3300304: Basal Nucleus
+    3300306: Caudate
+    3300308: Choroid plexus of fourth ventricle
+    3300310: Choroid plexus of left lateral ventricle
+    3300312: Choroid plexus of right lateral ventricle
+    3300314: Cingulate Gyrus
+    3300316: Claustrum
+    3300318: Fimbria of hippocampus
+    3300320: Fornix Body
+    3300322: Frontal Lobe
+    3300324: Globus Pallidus
+    3300326: Hippocampal Formation
+    3300328: Hypothalamus
+    3300330: Insula
+    3300332: Lamina terminalis
+    3300334: Left Brain Stem
+    3300336: Left Cerebellum
+    3300338: Locus Ceruleus
+    3300340: MFB
+    3300342: Nucleus Accumbens
+    3300344: Occipital Lobe
+    3300346: Olfactory Tract
+    3300348: Optic Chiasm
+    3300350: Optic Nerve
+    3300352: Optic Tract
+    3300354: Parahippocampus
+    3300356: Parietal Lobe
+    3300358: Post-commissural fornix branch
+    3300360: Posterior commissure
+    3300362: Pre-commissural fornix branch
+    3300364: Putamen
+    3300366: Right Brain Stem
+    3300368: Right Cerebellum
+    3300370: Septal Nuclei
+    3300372: Septum Pellucidum
+    3300374: Temporal Lobe
+    3300376: Thalamus
+    3300378: Ventricle
+    3300380: Brain Stem.CL
+    3300382: Brain Stem.CR
+    3300384: Cerebellum.CL
+    3300386: Cerebellum.CR
+    3300388: Frontal Lobe.CL
+    3300390: Frontal Lobe.CR
+    3300392: Occipital Lobe.CL
+    3300394: Occipital Lobe.CR
+    3300396: Parietal Lobe.CL
+    3300398: Parietal Lobe.CR
+    3300400: Temporal Lobe.CL
+    3300402: Temporal Lobe.CR
+    3300404: Anterior Commissure.M
+    4300000: Hypothalamus.C
+    4300002: Labels.045
+    4300004: Hypothalamus.M
+    4300006: Anterior Commisure.C
+    4300008: Anterior Commisure.M
+    4300010: Labels.032
+    4300012: MFB.M
+    4300014: Right Cerebellum.C
+    4300016: Right Cerebellum.M
+    4300018: Left Cerebellum.C
+    4300020: Labels.029
+    4300022: Left Cerebellum.M
+    4300024: Pre-commissural fornix branch.C
+    4300026: Pre-commissural fornix branch.R
+    4300028: Labels.066
+    4300030: Pre-commissural fornix branch.L
+    4300032: Post-commissural fornix branch.C
+    4300034: Labels.040
+    4300036: Labels.035
+    4300038: Post-commissural fornix branch.R
+    4300040: Labels.067
+    4300042: Post-commissural fornix branch.L
+    4300044: Fornix Body.C
+    4300046: Labels.030
+    4300048: Fornix Body.R
+    4300050: Fornix Body.L
+    4300052: Fimbria of hippocampus.C
+    4300054: Fimbria of hippocampus.R
+    4300056: Fimbria of hippocampus.L
+    4300058: Temporal Lobe.C
+    4300060: Labels.009
+    4300062: Temporal Lobe.R
+    4300064: Labels.008
+    4300066: Temporal Lobe.L
+    4300068: Parietal Lobe.C
+    4300070: Labels.023
+    4300072: Parietal Lobe.R
+    4300074: Labels.022
+    4300076: Parietal Lobe.L
+    4300078: Parahippocampus.C
+    4300080: Labels.064
+    4300082: Parahippocampus.R
+    4300084: Labels.062
+    4300086: Parahippocampus.L
+    4300088: Occipital Lobe.C
+    4300090: Labels.011
+    4300092: Occipital Lobe.R
+    4300094: Occipital Lobe.L
+    4300096: Labels.017
+    4300098: Frontal Lobe.C
+    4300100: Labels.003
+    4300102: Frontal Lobe.R
+    4300104: Labels.002
+    4300106: Frontal Lobe.L
+    4300108: Cingulate Gyrus.C
+    4300110: Labels.026
+    4300112: Cingulate Gyrus.R
+    4300114: Labels.065
+    4300116: Cingulate Gyrus.L
+    4300118: Right Brain Stem.C
+    4300120: Labels.057
+    4300122: Right Brain Stem.M
+    4300124: Left Brain Stem.C
+    4300126: Labels.034
+    4300128: Left Brain Stem.M
+    4300130: Ventricle.C
+    4300132: Labels.055
+    4300134: Ventricle.R
+    4300136: Ventricle.L
+    4300138: Ventricle.M1
+    4300140: Ventricle.M2
+    4300142: Caudate.C
+    4300144: Caudate.L
+    4300146: Labels.001
+    4300148: Caudate.R
+    4300150: Thalamus.C
+    4300152: Thalamus.R
+    4300154: Thalamus.L
+    4300156: Labels.056
+    4300158: Hippocampal Formation.C
+    4300160: Hippocampal Formation.R
+    4300162: Hippocampal Formation.L
+    4300164: Septum Pellucidum.C
+    4300166: Septum Pellucidum.R
+    4300168: Septum Pellucidum.L
+    4300170: Septal Nuclei.C
+    4300172: Labels.054
+    4300174: Septal Nuclei.R
+    4300176: Septal Nuclei.L
+    4300178: Putamen.C
+    4300180: Labels.053
+    4300182: Putamen.R
+    4300184: Putamen.L
+    4300186: Posterior commissure.M
+    4300188: Globus Pallidus.C
+    4300190: Globus Pallidus..R
+    4300192: Globus Pallidus.L
+    4300194: Optic Tract.C
+    4300196: Labels.050
+    4300198: Optic Tract.R
+    4300200: Optic Tract.L
+    4300202: Optic Nerve.C
+    4300204: Labels.046
+    4300206: Optic Nerve.R
+    4300208: Optic Nerve.L
+    4300210: Optic Chiasm.C
+    4300212: Labels.048
+    4300214: Optic Chiasm.M
+    4300216: Olfactory Tract.C
+    4300218: Olfactory Tract.R
+    4300220: Olfactory Tract.L
+    4300222: Locus Ceruleus.C
+    4300224: Locus Ceruleus.R
+    4300226: Locus Ceruleus.L
+    4300228: 'Lamina terminalis '
+    4300230: Insula.C
+    4300232: Insula.R
+    4300234: Insula.L
+    4300236: Choroid plexus of right lateral ventricle.C
+    4300238: Choroid plexus of right lateral ventricle.M
+    4300240: Choroid plexus of left lateral ventricle.C
+    4300242: Choroid plexus of left lateral ventricle.M
+    4300244: Choroid plexus of fourth ventricle.C
+    4300246: Choroid plexus of fourth ventricle.M
+    4300248: Claustrum.C
+    4300250: Labels.052
+    4300252: Claustrum.R
+    4300254: Claustrum.L
+    4300256: Basal Nucleus.C
+    4300258: Labels.044
+    4300260: Basal Nucleus.R
+    4300262: Basal Nucleus.L
+    4300264: Amygdala.C
+    4300266: Amygdala.R
+    4300268: Amygdala.L
+    4300270: Anterior Commissure.C
+    4300272: Labels.042
+    4300274: Anterior Commissure.R
+    4300276: Anterior Commissure.L
+    4300278: Nucleus Accumbens.C
+    4300280: Nucleus Accumbens.R
+    4300282: Nucleus Accumbens.L
+    4300284: ShapeIndexedFaceSet_147
+    4300286: ShapeIndexedFaceSet_184
+    4300288: ShapeIndexedFaceSet_102
+    4300290: ShapeIndexedFaceSet_230
+    4300292: ShapeIndexedFaceSet_208
+    4300294: Globus Pallidus.R
+    4300296: Lamina terminalis.M
+    4300298: Hypothalamus
+    4300300: Anterior Commisure
+    4300302: MFB
+    4300304: Right Cerebellum
+    4300306: Left Cerebellum
+    4300308: Pre-commissural fornix branch
+    4300310: Post-commissural fornix branch
+    4300312: Fornix Body
+    4300314: Fimbria of hippocampus
+    4300316: Temporal Lobe
+    4300318: Parietal Lobe
+    4300320: Parahippocampus
+    4300322: Occipital Lobe
+    4300324: Frontal Lobe
+    4300326: Cingulate Gyrus
+    4300328: Right Brain Stem
+    4300330: Left Brain Stem
+    4300332: Ventricle
+    4300334: Caudate
+    4300336: Thalamus
+    4300338: Hippocampal Formation
+    4300340: Septum Pellucidum
+    4300342: Septal Nuclei
+    4300344: Putamen
+    4300346: Posterior commissure
+    4300348: Globus Pallidus
+    4300350: Optic Tract
+    4300352: Optic Nerve
+    4300354: Optic Chiasm
+    4300356: Olfactory Tract
+    4300358: Locus Ceruleus
+    4300360: Lamina terminalis
+    4300362: Insula
+    4300364: Choroid plexus of right lateral ventricle
+    4300366: Choroid plexus of left lateral ventricle
+    4300368: Choroid plexus of fourth ventricle
+    4300370: Claustrum
+    4300372: Basal Nucleus
+    4300374: Amygdala
+    4300376: Anterior Commissure
+    4300378: Nucleus Accumbens
+    4300380: Cerebellum.CR
+    4300382: Cerebellum.CL
+    4300384: Frontal Lobe.CR
+    4300386: Occipital Lobe.CR
+    4300388: Parietal Lobe.CR
+    4300390: Temporal Lobe.CR
+    4300392: Temporal Lobe.CL
+    4300394: Parietal Lobe.CL
+    4300396: Occipital Lobe.CL
+    4300398: Frontal Lobe.CL
+    4300400: Brain Stem.CR
+    4300402: Brain Stem.CL
+    4300404: Anterior Commissure.M
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01
+    second: {fileID: 2100000, guid: 59f68135c33b4a34c92958bc918edeaa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 02
+    second: {fileID: 2100000, guid: 3a7722da9371d5c4bbb16a8b306d7072, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 03
+    second: {fileID: 2100000, guid: b84d41bd653bc814f8ead8844387bbe5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 04
+    second: {fileID: 2100000, guid: b11b8487e1d9b8447a6486ecf256ed0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 05
+    second: {fileID: 2100000, guid: 96ac676c91c42924f94ad4202b781767, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 06
+    second: {fileID: 2100000, guid: 73cc4f9910cbea24085c16b6f1518dbc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BrainLabels
+    second: {fileID: 2100000, guid: f6f32f1848650a4469468415293b0bac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default
+    second: {instanceID: 0}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

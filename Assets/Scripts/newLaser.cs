@@ -64,7 +64,7 @@ public class newLaser : MonoBehaviour
     void doTrigger() {
         pointTriggerReady = false;            
         if (hit.transform != null){
-            Debug.Log("Clicked on " + hit.transform.name);
+            //Debug.Log("Clicked on " + hit.transform.name);
             sound.clip = sounds[1];
             sound.Play();
             hit.transform.SendMessage("clickOn", controller, SendMessageOptions.DontRequireReceiver); //

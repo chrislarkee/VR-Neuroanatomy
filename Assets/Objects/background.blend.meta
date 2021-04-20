@@ -1,124 +1,355 @@
 fileFormatVersion: 2
 guid: f645c67d89f957f40999e27a1a0a9249
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: CubeArray
-    100004: CubeArray_MeshPart0
-    100006: CubeArray_MeshPart1
-    100008: CubeArray_MeshPart2
-    100010: Empty
-    100012: Empty_001
-    100014: Empty_002
-    100016: Circle
-    100018: Circle_MeshPart0
-    100020: Circle_MeshPart1
-    100022: Circle_MeshPart2
-    100024: Circle_MeshPart3
-    100026: Circle_001
-    100028: Circle_001_MeshPart0
-    100030: Circle_001_MeshPart1
-    100032: Sponge_MeshPart0
-    100034: Sponge_MeshPart1
-    100036: Sponge_MeshPart2
-    100038: Sponge_MeshPart3
-    100040: Sponge_MeshPart4
-    100042: Sponge_MeshPart5
-    100044: Sponge_MeshPart6
-    100046: Sponge_MeshPart7
-    100048: Camera
-    100050: GD_mesh
-    400000: //RootNode
-    400002: CubeArray
-    400004: CubeArray_MeshPart0
-    400006: CubeArray_MeshPart1
-    400008: CubeArray_MeshPart2
-    400010: Empty
-    400012: Empty_001
-    400014: Empty_002
-    400016: Circle
-    400018: Circle_MeshPart0
-    400020: Circle_MeshPart1
-    400022: Circle_MeshPart2
-    400024: Circle_MeshPart3
-    400026: Circle_001
-    400028: Circle_001_MeshPart0
-    400030: Circle_001_MeshPart1
-    400032: Sponge_MeshPart0
-    400034: Sponge_MeshPart1
-    400036: Sponge_MeshPart2
-    400038: Sponge_MeshPart3
-    400040: Sponge_MeshPart4
-    400042: Sponge_MeshPart5
-    400044: Sponge_MeshPart6
-    400046: Sponge_MeshPart7
-    400048: Camera
-    400050: GD_mesh
-    2300000: CubeArray_MeshPart0
-    2300002: CubeArray_MeshPart1
-    2300004: CubeArray_MeshPart2
-    2300006: Circle_MeshPart0
-    2300008: Circle_MeshPart1
-    2300010: Circle_MeshPart2
-    2300012: Circle_MeshPart3
-    2300014: Circle
-    2300016: Circle_001_MeshPart0
-    2300018: Circle_001_MeshPart1
-    2300020: Sponge_MeshPart0
-    2300022: Sponge_MeshPart1
-    2300024: Sponge_MeshPart2
-    2300026: Sponge_MeshPart3
-    2300028: Sponge_MeshPart4
-    2300030: Sponge_MeshPart5
-    2300032: Sponge_MeshPart6
-    2300034: Sponge_MeshPart7
-    2300036: //RootNode
-    2300038: GD_mesh
-    3300000: CubeArray_MeshPart0
-    3300002: CubeArray_MeshPart1
-    3300004: CubeArray_MeshPart2
-    3300006: Circle_MeshPart0
-    3300008: Circle_MeshPart1
-    3300010: Circle_MeshPart2
-    3300012: Circle_MeshPart3
-    3300014: Circle
-    3300016: Circle_001_MeshPart0
-    3300018: Circle_001_MeshPart1
-    3300020: Sponge_MeshPart0
-    3300022: Sponge_MeshPart1
-    3300024: Sponge_MeshPart2
-    3300026: Sponge_MeshPart3
-    3300028: Sponge_MeshPart4
-    3300030: Sponge_MeshPart5
-    3300032: Sponge_MeshPart6
-    3300034: Sponge_MeshPart7
-    3300036: //RootNode
-    3300038: GD_mesh
-    4300000: CubeArray_MeshPart0
-    4300002: CubeArray_MeshPart1
-    4300004: CubeArray_MeshPart2
-    4300006: Circle_MeshPart0
-    4300008: Circle_MeshPart1
-    4300010: Circle_MeshPart2
-    4300012: Circle_MeshPart3
-    4300014: Circle
-    4300016: Circle_001_MeshPart0
-    4300018: Circle_001_MeshPart1
-    4300020: Sponge_MeshPart0
-    4300022: Sponge_MeshPart1
-    4300024: Sponge_MeshPart2
-    4300026: Sponge_MeshPart3
-    4300028: Sponge_MeshPart4
-    4300030: Sponge_MeshPart5
-    4300032: Sponge_MeshPart6
-    4300034: Sponge_MeshPart7
-    4300036: GD_mesh
-    7400000: Default Take
-    9500000: //RootNode
-  externalObjects: {}
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: CubeArray
+  - first:
+      1: 100004
+    second: CubeArray_MeshPart0
+  - first:
+      1: 100006
+    second: CubeArray_MeshPart1
+  - first:
+      1: 100008
+    second: CubeArray_MeshPart2
+  - first:
+      1: 100010
+    second: Empty
+  - first:
+      1: 100012
+    second: Empty_001
+  - first:
+      1: 100014
+    second: Empty_002
+  - first:
+      1: 100016
+    second: Circle
+  - first:
+      1: 100018
+    second: Circle_MeshPart0
+  - first:
+      1: 100020
+    second: Circle_MeshPart1
+  - first:
+      1: 100022
+    second: Circle_MeshPart2
+  - first:
+      1: 100024
+    second: Circle_MeshPart3
+  - first:
+      1: 100026
+    second: Circle_001
+  - first:
+      1: 100028
+    second: Circle_001_MeshPart0
+  - first:
+      1: 100030
+    second: Circle_001_MeshPart1
+  - first:
+      1: 100032
+    second: Sponge_MeshPart0
+  - first:
+      1: 100034
+    second: Sponge_MeshPart1
+  - first:
+      1: 100036
+    second: Sponge_MeshPart2
+  - first:
+      1: 100038
+    second: Sponge_MeshPart3
+  - first:
+      1: 100040
+    second: Sponge_MeshPart4
+  - first:
+      1: 100042
+    second: Sponge_MeshPart5
+  - first:
+      1: 100044
+    second: Sponge_MeshPart6
+  - first:
+      1: 100046
+    second: Sponge_MeshPart7
+  - first:
+      1: 100048
+    second: Camera
+  - first:
+      1: 100050
+    second: GD_mesh
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: CubeArray
+  - first:
+      4: 400004
+    second: CubeArray_MeshPart0
+  - first:
+      4: 400006
+    second: CubeArray_MeshPart1
+  - first:
+      4: 400008
+    second: CubeArray_MeshPart2
+  - first:
+      4: 400010
+    second: Empty
+  - first:
+      4: 400012
+    second: Empty_001
+  - first:
+      4: 400014
+    second: Empty_002
+  - first:
+      4: 400016
+    second: Circle
+  - first:
+      4: 400018
+    second: Circle_MeshPart0
+  - first:
+      4: 400020
+    second: Circle_MeshPart1
+  - first:
+      4: 400022
+    second: Circle_MeshPart2
+  - first:
+      4: 400024
+    second: Circle_MeshPart3
+  - first:
+      4: 400026
+    second: Circle_001
+  - first:
+      4: 400028
+    second: Circle_001_MeshPart0
+  - first:
+      4: 400030
+    second: Circle_001_MeshPart1
+  - first:
+      4: 400032
+    second: Sponge_MeshPart0
+  - first:
+      4: 400034
+    second: Sponge_MeshPart1
+  - first:
+      4: 400036
+    second: Sponge_MeshPart2
+  - first:
+      4: 400038
+    second: Sponge_MeshPart3
+  - first:
+      4: 400040
+    second: Sponge_MeshPart4
+  - first:
+      4: 400042
+    second: Sponge_MeshPart5
+  - first:
+      4: 400044
+    second: Sponge_MeshPart6
+  - first:
+      4: 400046
+    second: Sponge_MeshPart7
+  - first:
+      4: 400048
+    second: Camera
+  - first:
+      4: 400050
+    second: GD_mesh
+  - first:
+      23: 2300000
+    second: CubeArray_MeshPart0
+  - first:
+      23: 2300002
+    second: CubeArray_MeshPart1
+  - first:
+      23: 2300004
+    second: CubeArray_MeshPart2
+  - first:
+      23: 2300006
+    second: Circle_MeshPart0
+  - first:
+      23: 2300008
+    second: Circle_MeshPart1
+  - first:
+      23: 2300010
+    second: Circle_MeshPart2
+  - first:
+      23: 2300012
+    second: Circle_MeshPart3
+  - first:
+      23: 2300014
+    second: Circle
+  - first:
+      23: 2300016
+    second: Circle_001_MeshPart0
+  - first:
+      23: 2300018
+    second: Circle_001_MeshPart1
+  - first:
+      23: 2300020
+    second: Sponge_MeshPart0
+  - first:
+      23: 2300022
+    second: Sponge_MeshPart1
+  - first:
+      23: 2300024
+    second: Sponge_MeshPart2
+  - first:
+      23: 2300026
+    second: Sponge_MeshPart3
+  - first:
+      23: 2300028
+    second: Sponge_MeshPart4
+  - first:
+      23: 2300030
+    second: Sponge_MeshPart5
+  - first:
+      23: 2300032
+    second: Sponge_MeshPart6
+  - first:
+      23: 2300034
+    second: Sponge_MeshPart7
+  - first:
+      23: 2300036
+    second: //RootNode
+  - first:
+      23: 2300038
+    second: GD_mesh
+  - first:
+      33: 3300000
+    second: CubeArray_MeshPart0
+  - first:
+      33: 3300002
+    second: CubeArray_MeshPart1
+  - first:
+      33: 3300004
+    second: CubeArray_MeshPart2
+  - first:
+      33: 3300006
+    second: Circle_MeshPart0
+  - first:
+      33: 3300008
+    second: Circle_MeshPart1
+  - first:
+      33: 3300010
+    second: Circle_MeshPart2
+  - first:
+      33: 3300012
+    second: Circle_MeshPart3
+  - first:
+      33: 3300014
+    second: Circle
+  - first:
+      33: 3300016
+    second: Circle_001_MeshPart0
+  - first:
+      33: 3300018
+    second: Circle_001_MeshPart1
+  - first:
+      33: 3300020
+    second: Sponge_MeshPart0
+  - first:
+      33: 3300022
+    second: Sponge_MeshPart1
+  - first:
+      33: 3300024
+    second: Sponge_MeshPart2
+  - first:
+      33: 3300026
+    second: Sponge_MeshPart3
+  - first:
+      33: 3300028
+    second: Sponge_MeshPart4
+  - first:
+      33: 3300030
+    second: Sponge_MeshPart5
+  - first:
+      33: 3300032
+    second: Sponge_MeshPart6
+  - first:
+      33: 3300034
+    second: Sponge_MeshPart7
+  - first:
+      33: 3300036
+    second: //RootNode
+  - first:
+      33: 3300038
+    second: GD_mesh
+  - first:
+      43: 4300000
+    second: CubeArray_MeshPart0
+  - first:
+      43: 4300002
+    second: CubeArray_MeshPart1
+  - first:
+      43: 4300004
+    second: CubeArray_MeshPart2
+  - first:
+      43: 4300006
+    second: Circle_MeshPart0
+  - first:
+      43: 4300008
+    second: Circle_MeshPart1
+  - first:
+      43: 4300010
+    second: Circle_MeshPart2
+  - first:
+      43: 4300012
+    second: Circle_MeshPart3
+  - first:
+      43: 4300014
+    second: Circle
+  - first:
+      43: 4300016
+    second: Circle_001_MeshPart0
+  - first:
+      43: 4300018
+    second: Circle_001_MeshPart1
+  - first:
+      43: 4300020
+    second: Sponge_MeshPart0
+  - first:
+      43: 4300022
+    second: Sponge_MeshPart1
+  - first:
+      43: 4300024
+    second: Sponge_MeshPart2
+  - first:
+      43: 4300026
+    second: Sponge_MeshPart3
+  - first:
+      43: 4300028
+    second: Sponge_MeshPart4
+  - first:
+      43: 4300030
+    second: Sponge_MeshPart5
+  - first:
+      43: 4300032
+    second: Sponge_MeshPart6
+  - first:
+      43: 4300034
+    second: Sponge_MeshPart7
+  - first:
+      43: 4300036
+    second: GD_mesh
+  - first:
+      74: 7400000
+    second: Default Take
+  - first:
+      95: 9500000
+    second: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: deb9a2986cff772439223de46a34d9e6, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 0
@@ -148,28 +379,31 @@ ModelImporter:
   meshes:
     lODScreenPercentages: []
     globalScale: 1
-    meshCompression: 1
+    meshCompression: 2
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 0
     importBlendShapes: 0
     importCameras: 0
     importLights: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -178,10 +412,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 0
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -191,13 +425,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
+  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

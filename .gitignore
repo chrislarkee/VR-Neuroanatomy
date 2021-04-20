@@ -4,14 +4,14 @@
 #
 
 #Asset store packages
+/Assets/Demigiant/
 /Assets/Plugins/Demigiant/
-/Assets/Oculus/
 
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
 /[Bb]uild/
-/[Bb]uilds/
+/[Bb]uild-basic/
 /[Ll]ogs/
 /[Mm]emoryCaptures/
 

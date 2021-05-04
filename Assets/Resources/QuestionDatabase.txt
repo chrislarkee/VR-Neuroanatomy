@@ -1,0 +1,92 @@
+Type	Difficulty	Question	Answers	Override	hitPoint	distanceThreshold
+Region	Easy	Point to the right pyramid.	Brain Stem.CR	Brain Stem	"0.00694,0.46012,0.21660"	0.150
+Region	Easy	Point to the corpora quadrigemina.	Brain Stem.CR	Colliculi	"0.00711,0.93122,0.22916"	0.200
+Region	Easy	Point to the left anterior horn of the lateral ventricles.	Ventricle		"0.04556,1.18121,-0.22127"	0.200
+Region	Easy	Point to the left posterior horn of the lateral ventricles.	Ventricle		"0.22887,0.97295,0.48792"	0.200
+Region	Easy	Point to the left inferior horn of the lateral ventricles.	Ventricle		"0.21206,0.93356,0.05560"	0.200
+Region	Easy	Point to the left trigone or atrium.	Ventricle		"0.22548,1.05177,0.34052"	0.300
+Simple	Easy	Which structure would contain the inferior olivary nuclei?	"Brain Stem.CL,Brain Stem.CR"	Lateral Brain Stem		
+Simple	Easy	Which structure contains the midbrain or mesencephalon?	"Brain Stem.CL,Brain Stem.CR"			
+Simple	Easy	"Which structure functions to control systems that regulate autonomic function, feeding, drinking, and thermoregulation?"	Hypothalamus			
+Simple	Easy	Visual sensory fibers travel through this structure from the retina	Optic Nerve			
+Simple	Easy	"At this structure, visual sensory fibers cross to the opposite side."	Optic Chiasm			
+Simple	Easy	Sensory information from the nasal epithelium terminate in this structure.	Olfactory Tract			
+Simple	Easy	This structure is anterior to the central sulcus.	"Frontal Lobe.CL,Frontal Lobe.CR"	Primary motor cortex		
+Simple	Easy	The structure is posterior to the central sulcus.	"Parietal Lobe.CR,Parietal Lobe.CL"	Primary somatosensory cortex		
+Simple	Easy	This structure is inferior to the lateral fissure.	"Temporal Lobe.CL,Temporal Lobe.CR"			
+Simple	Easy	This structure is superior to the lateral sulcus.	"Frontal Lobe.CL,Frontal Lobe.CR,Parietal Lobe.CR,Parietal Lobe.CL"	Frontal and Parietal lobes		
+Simple	Easy	"This structure contains Broca's area, which produces written, spoken, or signed language."	Frontal Lobe.CL			
+Simple	Easy	"This structure contains the Wernicke's area, permits comprehension of written, spoken, or signed language."	Temporal Lobe.CL			
+Simple	Easy	Control of movement from the left side of the body would be found in which cortical structure?	Frontal Lobe.CR			
+Simple	Easy	Sensory information from the left side of the body terminates in which cortical structure?	Parietal Lobe.CR			
+Simple	Easy	"Damage to which cortical structure can produce striking changes to personality, eye movements, and impulse control."	" Frontal Lobe.CL,Frontal Lobe.CR"			
+Simple	Easy	Caudal to the post-central gyrus is this structure.	"Parietal Lobe.CR,Parietal Lobe.CL"			
+Simple	Easy	This structure separates the lateral ventricles	Septum Pellucidum			
+Simple	Easy	This structure is responsible for the synthesis of cerebrospinal fluid.	"Choroid plexus of left lateral ventricle,Choroid plexus of right lateral ventricle,Choroid plexus of fourth ventricle"	Choroid plexus		
+Simple	Easy	"This cortex controls muscles to the face, lips, and tongue."	"Frontal Lobe.CR,Frontal Lobe.CL"	Lateral Frontal lobe		
+Box	Normal	Identify four major structures that belong to the limbic system.	"Parahippocampus,Cingulate Gyrus,Amygdala"	Hippocampal Formation 		
+Box	Normal	Which structures are involved in emotional or affective behavior?	"Parahippocampus,Amygdala"	Hippocampal Formation 		
+Box	Normal	These two structures make up the striatum.	"Caudate,Putamen"			
+Box	Normal	What two brain regions make up the lenticular nucleus?	"Putamen,Globus Pallidus"			
+Region	Normal	Point to the left interventricular foramen of Monro.	Ventricle		"0.00752,1.08974,-0.04794"	0.100
+Region	Normal	Point to the cerebral aqueduct.	Ventricle		"0.02703,0.90636,0.22083"	0.080
+Region	Normal	Point to the region on the right that receives input from from the retina and visual cortex and is responsible for visual orientation.	Brain Stem.CR	Superior Colliculi	"-0.02829,0.97048,0.22802"	0.125
+Region	Normal	Point to the region on the right that receives input from the cochlear nuclei and is responsible for auditory orientation.	Brain Stem.CR	Inferior Colliculi	"-0.04131,0.90669,0.24229"	0.125
+Region	Normal	Point to the region that receives DIRECT input from left ipsilateral and right contralateral retinal photoreceptors.	Thalamus	Thalamus (LGN)	"0.21308,0.93959,0.14500"	0.100
+Region	Normal	Point to the structure that joins the third and fourth ventricles.	Ventricle	The cerebral aquaduct	"0.02703,0.90636,0.22083"	0.125
+Region	Normal	Hydrocephaly with enlargement of lateral and third ventricles suggest an obstruction in what structure?	Ventricle	The cerebral aqueduct	"0.01839,0.93106,0.22613"	0.050
+Simple	Normal	Which structure clearly shows the middle cerebellar peduncles?	"Brain Stem.CL,Brain Stem.CR"	The Brain Stem		
+Simple	Normal	Crossed and uncrossed fibers leaving from the retina use this structure to reach the thalamus.	Optic Tract			
+Simple	Normal	Cells from this structure terminate in olfactory specific cortical areas including the uncus.	Olfactory Tract			
+Simple	Normal	The structure is anterior to the fissure of Rolando.	"Frontal Lobe.CL,Frontal Lobe.CR"	Primary motor cortex		
+Simple	Normal	This structure is posterior to the fissure of Rolando.	"Parietal Lobe.CR,Parietal Lobe.CL"	Primary somatosensory cortex		
+Simple	Normal	This structure is inferior to the Sylvian fissure.	"Temporal Lobe.CL,Temporal Lobe.CR"			
+Simple	Normal	This structure is superior to the Sylvian fissure.	"Frontal Lobe.CL,Frontal Lobe.CR,Parietal Lobe.CR,Parietal Lobe.CL"	Frontal and Parietal lobes		
+Simple	Normal	This structure is buried and is the fifth lobe of the hemisphere.	Insula			
+Simple	Normal	The calcarine fissure is found in this structure.	"Occipital Lobe.CL,Occipital Lobe.CR"			
+Simple	Normal	This fiber bundle interconnects limbic structures mainly from the temporal lobes.	Anterior Commissure			
+Simple	Normal	This limbic structure runs along the floor of the lateral ventricle.	Hippocampal Formation			
+Simple	Normal	The columns of the fornix split at this structure.	Anterior Commissure			
+Simple	Normal	This structure sits between the claustrum and lateral ventricle.	Caudate			
+Simple	Normal	This structure has both a head and tail and runs along the length of the lateral ventricle	Caudate			
+Simple	Normal	The zone of confluence between the caudate and putamen is known as the...	Nucleus Accumbens			
+Simple	Normal	This structure lies dorsal to the corpus callosum and is associated with motivation and emotional behavior.	Cingulate Gyrus			
+Simple	Normal	"Damage to this cortical region can produce deficits in eye movements and behavior that is flippant, impulsive, and lacking in social decorum."	"Frontal Lobe.CR,Frontal Lobe.CL"	Anterior Frontal lobe		
+Simple	Normal	This cortical region is important for forming mental images of how the outside world is spatially organized and where your body is located relative to the world.	"Parietal Lobe.CR,Parietal Lobe.CL"			
+Simple	Normal	This cortical region contains the calcarine cortex.	"Occipital Lobe.CR,Occipital Lobe.CL"	Occipital Cortex		
+Simple	Normal	Which structure provides a cushioning function for the brain.	Ventricle			
+Simple	Normal	This fiber pathway provides a route for olfactory information to cross from one side of the brain to the other.	Anterior Commissure			
+Simple	Normal	Lateral to the extreme capsule is this region.	Insula			
+Simple	Normal	This brain region extends anteriorly from the lamina terminalis and posteriorly to the mammillary bodies.	Hypothalamus			
+Simple	Normal	This fiber bundle connects the hippocampus with the septum and mammillary bodies.	Fornix Body	Fimbria/Fornix		
+Simple	Normal	The efferent half of this pathway is called the fimbria.	Fornix Body			
+Box	Clinical	These two structures are separated by the lateral medullary lamina.	"Globus Pallidus,Putamen"			
+Box	Clinical	These two structures are separated by the anterior limb of the internal capsule.	"Caudate,Putamen"			
+Box	Clinical	These two structures are separated by the posterior limb of the internal capsule.	"Globus Pallidus,Thalamus"			
+Box	Clinical	What structures lie between the internal capsule and the external capsule?	"Globus Pallidus,Putamen"			
+Box	Clinical	What structures comprise the basal ganglia?	"Globus Pallidus,Putamen,Caudate,Nucleus Accumbens"			
+Box	Clinical	Parkinson's disease results from death of dopamine neurons in the substantia nigra that project to these two regions.	"Caudate,Putamen"			
+Region	Clinical	Point to the median sulcus.	Brain Stem.CR		"0.04132,0.59612,0.26163"	0.100
+Region	Clinical	Point to the region that receives DIRECT input from the left inferior colliculi.	Thalamus	Thalamus (MGN)	"0.16178,0.98193,0.20606"	0.100
+Region	Clinical	Point to the foramen of Magendi.	Ventricle	The foramen of Magendi	"0.04212,0.55442,0.28349"	0.050
+Region	Clinical	Point to the right foramen of Luschka.	Ventricle	The foramen of Luschka	"-0.03725,0.65008,0.29867"	0.050
+Region	Clinical	Hydrocephaly with enlargement only to the lateral ventricles suggests an obstruction in what structure? (choose the left one.)	Ventricle	The left interventricular foramen of Monro	"0.02677,1.10853,-0.06865"	0.070
+Region	Clinical	Sulci limitans flank what structure?	Brain Stem.CR	The median sulcus	"0.03890,0.53653,0.32504"	0.080
+Simple	Clinical	The tuber cinereum and parts of the infundibulum are located just caudal to which structure?	Optic Chiasm			
+Simple	Clinical	This cortical structure receives gustatory and visceral sensory inputs?	Insula			
+Simple	Clinical	This structure receives input from the cortex and projects to the globus pallidus and substantia nigra.	Nucleus Accumbens			
+Simple	Clinical	Internal capsule fibers separate this structure from the globus pallidus and putamen.	Caudate			
+Simple	Clinical	What structure is divided by the medial medullary lamina?	Globus Pallidus			
+Simple	Clinical	The lateral medullary lamina separates the globus pallidus from this structure.	Putamen			
+Simple	Clinical	The anterior limb of the internal capsule separates the globus pallidus from this structure.	Caudate			
+Simple	Clinical	Fibers from the hippocampus project to the hypothalamus AND this region.	Septal Nuclei			
+Simple	Clinical	Fibers from the hippocampus project to the septal nuclei AND this region.	Hypothalamus			
+Simple	Clinical	This branch of the hippocampal projection leads to the septal nuclei.	Pre-commissural fornix branch			
+Simple	Clinical	This branch of the hippocampal projection leads to the mammillary bodies.	Post-commissural fornix branch			
+Simple	Clinical	This region sits between the external capsule and extreme capsule.	Claustrum			
+Simple	Clinical	What structure is divided by the medial medullary lamina?	Globus Pallidus			
+Simple	Clinical	The dorsolateral wall of the third ventricle is formed by this structure.	Thalamus			
+Simple	Clinical	The ventrolateral walls of the third ventricle is formed by this brain region.	Hypothalamus			
+Simple	Clinical	"This structure can be found in the frontal, parietal, and temporal lobes."	Caudate			
+Simple	Clinical	This region is vulnerable to herniation at the falx cerebri due to lateral forces on the brain.	Cingulate Gyrus			
+Simple	Clinical	This region is vulnerable to herniation at the foramen magnum due to downward forces on the brain.	"Cerebellum.CL,Cerebellum.CR"	Cerebellar Tonsils		

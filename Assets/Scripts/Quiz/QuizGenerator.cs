@@ -24,9 +24,9 @@ public class QuizGenerator : MonoBehaviour{
     public Image quizBackground;
 
     //data cache
-    private Q[] qdb;                //question database.
+    public string databaseFilename = "QuestionDatabase";     //customizeable database. Tab-delimited file must be uploaded to Resources.
+    private Q[] qdb;                //the generated question database.
     private bool[] difficulties = new bool[]{true, true, true};     //easy, normal, clinical.
-    private int[] playlist;         //a range
 
     //variables
     private Quiz.Status currentStatus = Status.Expired;    //used for logic flow. sort of a state machine.
@@ -65,54 +65,25 @@ public class QuizGenerator : MonoBehaviour{
 
     void generateDB(){
         //generate the database
-        List<Q> tempDB = QuestionDatabase.generateQuestions();  //all questions
-        List<Q> tempDB2 = new List<Q>();
-
         changeDifficulty();
         difficultySelector.SetActive(false);
+        qdb = Quiz.Load.LoadAll(databaseFilename, difficulties);
+        Debug.Log("Database generated: " + qdb.Length.ToString() + " questions.");
 
-        //filter for difficulty
-        foreach (Q q in tempDB) {
-            if (q.difficulty == Difficulty.Easy && difficulties[0] == true)
-                tempDB2.Add(q);
-            if (q.difficulty == Difficulty.Normal && difficulties[1] == true)
-                tempDB2.Add(q);
-            if (q.difficulty == Difficulty.Clinical && difficulties[2] == true)
-                tempDB2.Add(q);
-        }
-
-        //no difficulty + in editor = debug questions.
-        if (tempDB2.Count == 0 && Application.isEditor) {
-            foreach (Q q in tempDB) {
-                if (q.GetType() == typeof(Q_Region)) tempDB2.Add(q);
-            }
-        }
-        //no difficulty + in browser = all questions.
-        if (tempDB2.Count == 0) qdb = tempDB.ToArray();
-        else qdb = tempDB2.ToArray();
-
-        Debug.Log("Difficulty filtered down to " + qdb.Length.ToString() + " questions.");
-
-        //generate a random playlist
-        playlist = new int[qdb.Length];
-        for (int i = 0; i < playlist.Length; i++) {
-            playlist[i] = i;
-        }
-
-        //the knuth shuffle
+        //randomize the question order with the knuth shuffle:
         System.Random random = new System.Random();
-        for (int i = 0; i < playlist.Length; i++) {
-            int j = random.Next(i, playlist.Length);
-            int temp = playlist[i];
-            playlist[i] = playlist[j];
-            playlist[j] = temp;
+        for (int i = 0; i < qdb.Length; i++) {
+            int j = random.Next(i, qdb.Length);
+            Q temp = qdb[i];
+            qdb[i] = qdb[j];
+            qdb[j] = temp;
         }
 
         //string debugPlaylist = "Playlist = ";
-        //foreach (int i in playlist){
-        //    debugPlaylist += i.ToString() + ", ";
+        //for (int i = 0; i < qdb.Length; i++) {
+        //    debugPlaylist += qdb[i].ID.ToString() + ", ";
         //}
-        //Debug.Log(debugPlaylist);        
+        //Debug.Log(debugPlaylist);
     }
 
     public void nextQuestion(){
@@ -128,11 +99,10 @@ public class QuizGenerator : MonoBehaviour{
 
     //this gets triggered when the switch button exits quiz mode
     void OnDisable() {
-        if (sphere.activeInHierarchy)
-            sphere.SetActive(false);
-        picker.gameObject.SetActive(false);
-        box.gameObject.SetActive(false);
         brain.stopAllFlashing();
+        if (sphere != null) sphere.SetActive(false);
+        picker.gameObject.SetActive(false);
+        box.gameObject.SetActive(false);        
         StopAllCoroutines();
         CancelInvoke();
         currentStatus = Status.Inactive;
@@ -140,12 +110,12 @@ public class QuizGenerator : MonoBehaviour{
 
     //queue up the next question in the randomized playlist;
     void generateQuestion(){
-        if (correctAnswerCount + wrongAnswerCount >= playlist.Length) {
+        if (correctAnswerCount + wrongAnswerCount >= qdb.Length) {
             quizCompleted();
             return;
         }
 
-        generateQuestion(playlist[correctAnswerCount + wrongAnswerCount]);
+        generateQuestion(correctAnswerCount + wrongAnswerCount);
     }
 
     //specify a specific question ID.
@@ -173,7 +143,6 @@ public class QuizGenerator : MonoBehaviour{
         //update the UI with the question data
         titleText.text = "Question #" + (wrongAnswerCount + correctAnswerCount + 1).ToString() + " of " + qdb.Length.ToString() + " (" + qdb[questionID].difficulty.ToString() + " difficulty) :";
         questionText.text = qdb[questionID].question;
-        subtitleText.text = qdb[questionID].instruction;
         
         //launch the coroutine that will watch for a correct response
         if (qdb[questionID] is Quiz.Q_Simple)
@@ -195,6 +164,7 @@ public class QuizGenerator : MonoBehaviour{
         List<string> wrongAnswers = new List<string>();     //keep track of wrong answers, to avoid duplicating mistake counts
         List<string> rightAnswers = new List<string>(currentQ.correctAnswers.Length);   
         rightAnswers.AddRange(currentQ.correctAnswers);     //convert it to a list because it's easier to scan than an array
+        subtitleText.text = "Use the IDENTIFY tool to click on the correct part.";
 
         //check with brainPart3 for redpart to match. Loop ends right or wrong
         while (currentStatus == Status.Waiting) {
@@ -251,8 +221,9 @@ public class QuizGenerator : MonoBehaviour{
         box.gameObject.SetActive(true);
         Q_Box currentQ = (Q_Box)qdb[currentQuestion];
         List<string> answers = new List<string>(currentQ.correctAnswers);
+        subtitleText.text = "Use the MOVE tool to bring " + answers.Count.ToString() + " parts into the box.";
         List<string> flashingParts = new List<string>();
-        int correctCount;
+        int correctCount;        
 
         //wait until everything in the box matches the correctAnswers. Order doesn't matter.
         while (currentStatus == Status.Waiting) {
@@ -300,6 +271,7 @@ public class QuizGenerator : MonoBehaviour{
         //setup
         currentStatus = Status.Waiting;
         Q_Region currentQ = (Q_Region)qdb[currentQuestion];
+        subtitleText.text = "Use the IDENTIFY tool place the marker on the specific point.";
 
         //picker
         picker.gameObject.SetActive(true);

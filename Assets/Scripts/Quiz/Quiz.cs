@@ -1,5 +1,5 @@
-﻿//using System.Collections;
-//using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace Quiz {
@@ -9,9 +9,10 @@ namespace Quiz {
     //**QUESTION TYPES**//
     public class Q {
         //base parameters for all question types. Don't construct this directly, because there's no answers.
+        public int ID;                //simple counter. Only used for shuffle debugging.
         public string question;       //the main question
-        public string instruction;    //a clue or instruction    
         public Difficulty difficulty;
+        
     }
 
     //unique structures for different types of questions. These EXTEND the base Q class, because they have different answer formats
@@ -29,11 +30,12 @@ namespace Quiz {
     public class Q_Region : Q {
         //Point a specific region on a brain part.
         public string correctAnswer;                //should match a part in the heirarchy
-        public string answerOverride;                   //override what the answer box says in response.
-        public Vector3 hitPoint = Vector3.zero;     //the coordinate of the desired click, in world coordinates, with the part in its original position
-        public float distanceThreshold = 1f;        //how far from the target is acceptable (the radius of the pink sphere)
+        public string answerOverride;               //override what the answer box says in response.
+        public Vector3 hitPoint;                    //the coordinate of the desired click, in world coordinates, with the part in its original position
+        public float distanceThreshold;             //how far from the target is acceptable (the radius of the pink sphere)
     }
 
+    //We didn't use this one, but it might be a good idea someday
     //public class Q_MultipleChoice : Q {
     //    //a question with multiple choices, selected by a gui?
     //    public new string subtitle = "";
@@ -41,90 +43,116 @@ namespace Quiz {
     //    public int correctAnswer = 0;        
     //}
 
-    //**CONSTRUCTOR METHODS**//
-    public static class Questions {
-        //single strings as parameters
-        public static Q_Simple simple (string title, string correctAnswer){
-            //if you don't specify a difficulty, it will be 'normal' by default
-            string[] singleAnswer = new string[1] {correctAnswer};
-            return simple(title, singleAnswer, "", Difficulty.Normal);
+    //**LOADERS**//
+    public static class Load {
+        public static Q[] LoadAll(string filename){
+            bool[] diffs = new bool[]{true, true, true};
+            return LoadAll(filename, diffs);
         }
 
-        public static Q_Simple simple(string title, string correctAnswer, string alternativeAnswer) {
-            //if you don't specify a difficulty, it will be 'normal' by default
-            string[] singleAnswer = new string[1] {correctAnswer};
-            return simple(title, singleAnswer, alternativeAnswer, Difficulty.Normal);
+        public static Q[] LoadAll(string filename, bool[] difficulties) {
+            //disallow an empty database
+            if (difficulties[0] == false && difficulties[1] == false && difficulties[2] == false)
+                difficulties = new bool[] {true, true, true};
+
+            //load the CSV file from Resources
+            string[] data = Resources.Load<TextAsset>(filename).text.Split('\n');
+            List<Q> allQuestions = new List<Q>();
+            int idCounter = -1;
+
+            //each entry in data[] contains one line. Loop through every line, except the header
+            for (int i = 1; i < data.Length - 1; i++) {
+                string[] line = data[i].Split('\t');     //split line into cells, tab-delimited
+
+                //if the question has an inactive difficulty setting, skip it.
+                Difficulty diffCheck = Utilities.parseDifficulty(line[1]);
+                if (difficulties[(int)diffCheck] == false) continue;
+                
+                idCounter++;
+
+                //0=Type, 1=Difficulty, 2=Question, 3=Answers, 4=Override, 5=hitPoint, 6=distanceThreshold
+                if (line[0].ToUpper().StartsWith("S")) {
+                    //simple-specific parameters
+                    Quiz.Q_Simple newQuestion = new Quiz.Q_Simple();
+                    newQuestion.ID = idCounter;
+                    newQuestion.difficulty = diffCheck;
+                    newQuestion.question = Utilities.validate(line[2]);
+                    newQuestion.correctAnswers = Utilities.separateAnswers(line[3]);
+                    newQuestion.answerOverride = line[4];
+                    allQuestions.Add(newQuestion);
+
+                } else if (line[0].ToUpper().StartsWith("B")) {
+                    //box-specific parameters
+                    Quiz.Q_Box newQuestion = new Quiz.Q_Box();
+                    newQuestion.ID = idCounter;
+                    newQuestion.difficulty = diffCheck;
+                    newQuestion.question = Utilities.validate(line[2]);
+                    newQuestion.correctAnswers = Utilities.separateAnswers(line[3]);
+                    allQuestions.Add(newQuestion);
+                   
+                } else if (line[0].ToUpper().StartsWith("R")) {
+                    //region-specific parameters
+                    Quiz.Q_Region newQuestion = new Quiz.Q_Region();
+                    newQuestion.ID = idCounter;
+                    newQuestion.difficulty = diffCheck;
+                    newQuestion.question = Utilities.validate(line[2]);
+                    newQuestion.correctAnswer = Utilities.validate(line[3]);
+                    newQuestion.answerOverride = line[4];
+                    newQuestion.hitPoint = Utilities.parseVec3(line[5]);
+                    newQuestion.distanceThreshold = float.Parse(line[6]);
+                    allQuestions.Add(newQuestion);
+                } else {
+                    //improper lines, including the header perhaps
+                    continue;
+                }
+            }
+
+            //Debug.Log("Total: " + allQuestions.Count.ToString());
+            return allQuestions.ToArray();
+        }
+    }
+
+    public static class Utilities {
+        public static Vector3 parseVec3(string input) {
+            //convert the string from the text file into a valid vector3
+            if (input.StartsWith("\"")) input = input.Substring(1, input.Length - 2);
+            string[] separated = input.Split(',');
+            Vector3 output = new Vector3(float.Parse(separated[0]), float.Parse(separated[1]), float.Parse(separated[2]));
+            return output;
         }
 
-        public static Q_Simple simple(string title, string correctAnswer, Difficulty difficulty) {
-            //if you don't specify a difficulty, it will be 'normal' by default
-            string[] singleAnswer = new string[1]{correctAnswer};
-            return simple(title, singleAnswer, "", difficulty);
+        public static Quiz.Difficulty parseDifficulty(string input) {
+            //convert the string from the text file into the difficulty Enum
+            if (input.ToUpper().StartsWith("E")) 
+                return Difficulty.Easy;
+            else if (input.ToUpper().StartsWith("N")) 
+                return Quiz.Difficulty.Normal;
+            else if (input.ToUpper().StartsWith("C")) 
+                return Quiz.Difficulty.Clinical;
+            else if (input.ToUpper().StartsWith("D")) 
+                return Quiz.Difficulty.Debug;
+            else 
+                return Difficulty.Normal;
         }
 
-        //string arrays as parameters
-        public static Q_Simple simple(string title, string[] correctAnswers) {
-            return simple(title, correctAnswers, "", Difficulty.Normal);
+        public static string[] separateAnswers(string input) {
+            //trim quotes
+            if (input.StartsWith("\"")) input = input.Substring(1, input.Length - 2);
+
+            string[] separated = input.Split(',');
+            return separated;
         }
 
-        public static Q_Simple simple(string title, string[] correctAnswers, Difficulty difficulty) {
-            return simple(title, correctAnswers, "", difficulty);
-        }
+        public static string validate(string input){
+            //no quotes!    
+            if (input.StartsWith("\"")) 
+                input = input.Substring(1, input.Length - 2);
 
-        public static Q_Simple simple(string title, string[] correctAnswers, string answerOverride) {
-            return simple(title, correctAnswers, answerOverride, Difficulty.Normal);
-        }
-
-        //the master one
-        public static Q_Simple simple(string title, string[] correctAnswers, string answerOverride, Difficulty difficulty) {
-            Q_Simple newQuestion = new Q_Simple();
-            newQuestion.question = title;
-            newQuestion.instruction = "Use the IDENTIFY tool to click on the correct part.";
-            newQuestion.difficulty = difficulty;
-            newQuestion.correctAnswers = correctAnswers;
-            newQuestion.answerOverride = answerOverride;
-            return newQuestion;
-        }
-
-        public static Q_Region region(string title, string correctAnswer, Vector3 hitPoint, float distanceThreshold) {
-            //if you don't specify a difficulty, it will be 'normal' by default
-            return region(title, correctAnswer, "", hitPoint, distanceThreshold, Difficulty.Normal);
-        }
-
-        public static Q_Region region(string title, string correctAnswer, string answerOverride, Vector3 hitPoint, float distanceThreshold)
-        {
-            //if you don't specify a difficulty, it will be 'normal' by default
-            return region(title, correctAnswer, answerOverride, hitPoint, distanceThreshold, Difficulty.Normal);
-        }
-
-        public static Q_Region region(string title, string correctAnswer, Vector3 hitPoint, float distanceThreshold, Difficulty difficulty) {
-            return region(title, correctAnswer, "", hitPoint, distanceThreshold, difficulty);
-        }
-
-        public static Q_Region region(string title, string correctAnswer, string answerOverride, Vector3 hitPoint, float distanceThreshold, Difficulty difficulty) {
-            Q_Region newQuestion = new Q_Region();
-            newQuestion.question = title;
-            newQuestion.instruction = "Use the IDENTIFY tool place the marker on the specific point.";            
-            newQuestion.correctAnswer = correctAnswer;
-            newQuestion.answerOverride = answerOverride;
-            newQuestion.hitPoint = hitPoint;
-            newQuestion.distanceThreshold = distanceThreshold;
-            newQuestion.difficulty = difficulty;
-            return newQuestion;
-        }
-
-        public static Q_Box box(string title, string[] correctAnswers) {
-            //if you don't specify a difficulty, it will be 'normal' by default
-            return box(title, correctAnswers, Difficulty.Normal);
-        }
-
-        public static Q_Box box(string title, string[] correctAnswers, Difficulty difficulty) {
-            Q_Box newQuestion = new Q_Box();
-            newQuestion.question = title;
-            newQuestion.instruction = "Use the MOVE tool to bring " + correctAnswers.Length.ToString() + " parts into the box.";
-            newQuestion.difficulty = difficulty;
-            newQuestion.correctAnswers = correctAnswers;
-            return newQuestion;
+            //no trailing spaces!
+            if (input.EndsWith(" "))
+                input = input.Substring(0, input.Length - 2);
+        
+            return input;
         }
     }
 }
